@@ -7,7 +7,7 @@ import { Route, Routes, Link } from 'react-router-dom';
 export function App() {
   return (
     <div>
-      <NxWelcome title="@hustler-client/hustler-client" />
+       {/*<NxWelcome title="@hustler-client/hustler-client" />*/}
 
       {/* START: routes */}
       {/* These routes and navigation have been generated for you */}
@@ -29,7 +29,7 @@ export function App() {
         <Route
           path="/"
           element={
-            <div>
+            <div className='w-full flex flex-col items-center justify-center'>
               This is the generated root route.{' '}
               <Link to="/page-2">Click here for page 2.</Link>
             </div>
